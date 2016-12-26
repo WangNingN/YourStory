@@ -23,7 +23,7 @@ class YSLoginViewController: BaseViewController {
     func configUI() -> Void {
         textBgView.layer.borderWidth = 0.5
         textBgView.layer.borderColor = UIColor.lightGray.cgColor
-        
+        print("")
         let rightBtn = UIButton()
         let btnImage = UIImage(named: "login_delete")
         rightBtn.setImage(btnImage, for: .normal)
