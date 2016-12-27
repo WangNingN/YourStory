@@ -10,9 +10,40 @@ import UIKit
 
 class YSYourStoryViewController: BaseViewController {
 
+    private var loginView : UIView?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
+//        presentLoginVC()
+
+    }
+    
+    func configTabar() -> Void {
+        if isLogin() {
+            if loginView != nil {
+                loginView?.removeFromSuperview()
+                self.tabBarController?.tabBar.isHidden = false
+            }
+        }else{
+            self.tabBarController?.tabBar.isHidden = true
+            if loginView == nil {
+                loginView = UIView()
+            }
+            loginView!.backgroundColor = UIColor.orange
+            loginView!.frame = CGRect(x: 0, y: ScreenHeight() - tabbarHeight(), width: ScreenWidth(), height: tabbarHeight())
+            self.view.addSubview(loginView!)
+            
+            //设置登录按钮
+            let logBtn = UIButton()
+            logBtn.setTitle("登录", for: .normal)
+            logBtn.frame = CGRect(x: 20, y: (loginView!.Height - 40)/2, width: ScreenWidth() - 20 * 2, height: 40)
+            logBtn.addTarget(self, action: #selector(gotoLogin), for: .touchUpInside)
+            loginView?.addSubview(logBtn)
+        }
+    }
+    
+    func gotoLogin() -> Void {
         presentLoginVC()
     }
     
@@ -27,6 +58,9 @@ class YSYourStoryViewController: BaseViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        configTabar()
+    }
 
     /*
     // MARK: - Navigation

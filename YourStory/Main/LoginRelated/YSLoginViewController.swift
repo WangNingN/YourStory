@@ -55,6 +55,7 @@ class YSLoginViewController: BaseViewController {
     
     //MARK:- 返回
     func backClick() -> Void {
+        configLoginStatus(isLogin: true)
         self.dismiss(animated: true, completion: nil)
     }
     

@@ -41,6 +41,7 @@
 		04ACD2451DF408AB0026C9F8 /* YSNetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACD2441DF408AB0026C9F8 /* YSNetWorkManager.swift */; };
 		B81AC9551E12347F00012EB3 /* YSNewPwdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81AC9531E12347F00012EB3 /* YSNewPwdViewController.swift */; };
 		B81AC9561E12347F00012EB3 /* YSNewPwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B81AC9541E12347F00012EB3 /* YSNewPwdViewController.xib */; };
+		B84C65201E126E6E0039031F /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84C651F1E126E6E0039031F /* Globals.swift */; };
 		B8E70A611E1210B70046C18C /* YSFogotPwdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E70A5F1E1210B70046C18C /* YSFogotPwdViewController.swift */; };
 		B8E70A621E1210B70046C18C /* YSFogotPwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8E70A601E1210B70046C18C /* YSFogotPwdViewController.xib */; };
 		B8E70A661E1216400046C18C /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E70A651E1216400046C18C /* Functions.swift */; };
@@ -107,6 +108,7 @@
 		553A097F2C0510D21E14E5D5 /* Pods_YourStory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YourStory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81AC9531E12347F00012EB3 /* YSNewPwdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSNewPwdViewController.swift; sourceTree = "<group>"; };
 		B81AC9541E12347F00012EB3 /* YSNewPwdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSNewPwdViewController.xib; sourceTree = "<group>"; };
+		B84C651F1E126E6E0039031F /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 		B8E70A5F1E1210B70046C18C /* YSFogotPwdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSFogotPwdViewController.swift; sourceTree = "<group>"; };
 		B8E70A601E1210B70046C18C /* YSFogotPwdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSFogotPwdViewController.xib; sourceTree = "<group>"; };
 		B8E70A651E1216400046C18C /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
@@ -395,6 +397,7 @@
 			isa = PBXGroup;
 			children = (
 				B8E70A651E1216400046C18C /* Functions.swift */,
+				B84C651F1E126E6E0039031F /* Globals.swift */,
 			);
 			path = Functions;
 			sourceTree = "<group>";
@@ -613,6 +616,7 @@
 				04ACD2351DF2A81B0026C9F8 /* UIViewExtension.swift in Sources */,
 				0435B72F1DF29EC5006EC1F6 /* BaseViewController.swift in Sources */,
 				0435B74C1DF29ECE006EC1F6 /* YSMyInfoViewController.swift in Sources */,
+				B84C65201E126E6E0039031F /* Globals.swift in Sources */,
 				0435B74A1DF29ECE006EC1F6 /* YSMyInfoNavigationViewController.swift in Sources */,
 				0435B6F51DF29E99006EC1F6 /* AppDelegate.swift in Sources */,
 				04ACD2411DF400CB0026C9F8 /* YSPhoneValidateViewController.swift in Sources */,
