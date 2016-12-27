@@ -43,7 +43,8 @@ class YSLoginViewController: BaseViewController {
     
     //忘记密码
     @IBAction func fogetPwd(_ sender: Any) {
-        print("prin")
+        let fgtPwd = YSFogotPwdViewController()
+        self.navigationController?.pushViewController(fgtPwd, animated: true)
     }
     
     //注册
