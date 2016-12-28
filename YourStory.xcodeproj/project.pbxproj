@@ -42,6 +42,8 @@
 		B81AC9551E12347F00012EB3 /* YSNewPwdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81AC9531E12347F00012EB3 /* YSNewPwdViewController.swift */; };
 		B81AC9561E12347F00012EB3 /* YSNewPwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B81AC9541E12347F00012EB3 /* YSNewPwdViewController.xib */; };
 		B84C65201E126E6E0039031F /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84C651F1E126E6E0039031F /* Globals.swift */; };
+		B84C65271E135DDF0039031F /* YSSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84C65251E135DDF0039031F /* YSSettingViewController.swift */; };
+		B84C65281E135DDF0039031F /* YSSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B84C65261E135DDF0039031F /* YSSettingViewController.xib */; };
 		B8E70A611E1210B70046C18C /* YSFogotPwdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E70A5F1E1210B70046C18C /* YSFogotPwdViewController.swift */; };
 		B8E70A621E1210B70046C18C /* YSFogotPwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8E70A601E1210B70046C18C /* YSFogotPwdViewController.xib */; };
 		B8E70A661E1216400046C18C /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E70A651E1216400046C18C /* Functions.swift */; };
@@ -109,6 +111,8 @@
 		B81AC9531E12347F00012EB3 /* YSNewPwdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSNewPwdViewController.swift; sourceTree = "<group>"; };
 		B81AC9541E12347F00012EB3 /* YSNewPwdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSNewPwdViewController.xib; sourceTree = "<group>"; };
 		B84C651F1E126E6E0039031F /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		B84C65251E135DDF0039031F /* YSSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSSettingViewController.swift; sourceTree = "<group>"; };
+		B84C65261E135DDF0039031F /* YSSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSSettingViewController.xib; sourceTree = "<group>"; };
 		B8E70A5F1E1210B70046C18C /* YSFogotPwdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSFogotPwdViewController.swift; sourceTree = "<group>"; };
 		B8E70A601E1210B70046C18C /* YSFogotPwdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSFogotPwdViewController.xib; sourceTree = "<group>"; };
 		B8E70A651E1216400046C18C /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
@@ -167,6 +171,7 @@
 			isa = PBXGroup;
 			children = (
 				0435B6F41DF29E99006EC1F6 /* AppDelegate.swift */,
+				B84C65211E135DBB0039031F /* Settings */,
 				B8E70A631E12161C0046C18C /* Comment */,
 				04ACD2431DF408880026C9F8 /* Network */,
 				0435B7311DF29ECE006EC1F6 /* Main */,
@@ -385,6 +390,40 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		B84C65211E135DBB0039031F /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B84C65221E135DBB0039031F /* Model */,
+				B84C65231E135DBB0039031F /* ViewControllers */,
+				B84C65241E135DBB0039031F /* Views */,
+			);
+			name = Settings;
+			path = Main/Settings;
+			sourceTree = "<group>";
+		};
+		B84C65221E135DBB0039031F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B84C65231E135DBB0039031F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B84C65251E135DDF0039031F /* YSSettingViewController.swift */,
+				B84C65261E135DDF0039031F /* YSSettingViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B84C65241E135DBB0039031F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		B8E70A631E12161C0046C18C /* Comment */ = {
 			isa = PBXGroup;
 			children = (
@@ -538,6 +577,7 @@
 				0435B6FA1DF29E99006EC1F6 /* Main.storyboard in Resources */,
 				0435B7551DF29ECE006EC1F6 /* YSWriteStoryViewController.xib in Resources */,
 				0435B74F1DF29ECE006EC1F6 /* YSYourStoryNavigationController.xib in Resources */,
+				B84C65281E135DDF0039031F /* YSSettingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -627,6 +667,7 @@
 				0435B72D1DF29EC5006EC1F6 /* BaseNavigationController.swift in Sources */,
 				04ACD2391DF2AAB30026C9F8 /* YSLoginViewController.swift in Sources */,
 				0435B74E1DF29ECE006EC1F6 /* YSYourStoryNavigationController.swift in Sources */,
+				B84C65271E135DDF0039031F /* YSSettingViewController.swift in Sources */,
 				B8E70A611E1210B70046C18C /* YSFogotPwdViewController.swift in Sources */,
 				04ACD23D1DF3F6550026C9F8 /* YSRegisterViewController.swift in Sources */,
 			);
