@@ -39,6 +39,14 @@
 		04ACD2411DF400CB0026C9F8 /* YSPhoneValidateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACD23F1DF400CB0026C9F8 /* YSPhoneValidateViewController.swift */; };
 		04ACD2421DF400CB0026C9F8 /* YSPhoneValidateViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ACD2401DF400CB0026C9F8 /* YSPhoneValidateViewController.xib */; };
 		04ACD2451DF408AB0026C9F8 /* YSNetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACD2441DF408AB0026C9F8 /* YSNetWorkManager.swift */; };
+		B81AC9551E12347F00012EB3 /* YSNewPwdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81AC9531E12347F00012EB3 /* YSNewPwdViewController.swift */; };
+		B81AC9561E12347F00012EB3 /* YSNewPwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B81AC9541E12347F00012EB3 /* YSNewPwdViewController.xib */; };
+		B84C65201E126E6E0039031F /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84C651F1E126E6E0039031F /* Globals.swift */; };
+		B84C65271E135DDF0039031F /* YSSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84C65251E135DDF0039031F /* YSSettingViewController.swift */; };
+		B84C65281E135DDF0039031F /* YSSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B84C65261E135DDF0039031F /* YSSettingViewController.xib */; };
+		B8E70A611E1210B70046C18C /* YSFogotPwdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E70A5F1E1210B70046C18C /* YSFogotPwdViewController.swift */; };
+		B8E70A621E1210B70046C18C /* YSFogotPwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8E70A601E1210B70046C18C /* YSFogotPwdViewController.xib */; };
+		B8E70A661E1216400046C18C /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E70A651E1216400046C18C /* Functions.swift */; };
 		E1759EA7391626395B029A64 /* Pods_YourStory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553A097F2C0510D21E14E5D5 /* Pods_YourStory.framework */; };
 /* End PBXBuildFile section */
 
@@ -100,6 +108,14 @@
 		04ACD2441DF408AB0026C9F8 /* YSNetWorkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSNetWorkManager.swift; sourceTree = "<group>"; };
 		0E9A6E489FEAA040493BE57E /* Pods-YourStory.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YourStory.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YourStory/Pods-YourStory.debug.xcconfig"; sourceTree = "<group>"; };
 		553A097F2C0510D21E14E5D5 /* Pods_YourStory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YourStory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B81AC9531E12347F00012EB3 /* YSNewPwdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSNewPwdViewController.swift; sourceTree = "<group>"; };
+		B81AC9541E12347F00012EB3 /* YSNewPwdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSNewPwdViewController.xib; sourceTree = "<group>"; };
+		B84C651F1E126E6E0039031F /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
+		B84C65251E135DDF0039031F /* YSSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSSettingViewController.swift; sourceTree = "<group>"; };
+		B84C65261E135DDF0039031F /* YSSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSSettingViewController.xib; sourceTree = "<group>"; };
+		B8E70A5F1E1210B70046C18C /* YSFogotPwdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSFogotPwdViewController.swift; sourceTree = "<group>"; };
+		B8E70A601E1210B70046C18C /* YSFogotPwdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSFogotPwdViewController.xib; sourceTree = "<group>"; };
+		B8E70A651E1216400046C18C /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
 		C462FC0A5F9CF2C663C92536 /* Pods-YourStory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YourStory.release.xcconfig"; path = "Pods/Target Support Files/Pods-YourStory/Pods-YourStory.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -155,6 +171,8 @@
 			isa = PBXGroup;
 			children = (
 				0435B6F41DF29E99006EC1F6 /* AppDelegate.swift */,
+				B84C65211E135DBB0039031F /* Settings */,
+				B8E70A631E12161C0046C18C /* Comment */,
 				04ACD2431DF408880026C9F8 /* Network */,
 				0435B7311DF29ECE006EC1F6 /* Main */,
 				0435B7221DF29EC5006EC1F6 /* Base */,
@@ -345,6 +363,10 @@
 				04ACD2381DF2AAB30026C9F8 /* YSLoginViewController.xib */,
 				04ACD23B1DF3F6550026C9F8 /* YSRegisterViewController.swift */,
 				04ACD23C1DF3F6550026C9F8 /* YSRegisterViewController.xib */,
+				B8E70A5F1E1210B70046C18C /* YSFogotPwdViewController.swift */,
+				B8E70A601E1210B70046C18C /* YSFogotPwdViewController.xib */,
+				B81AC9531E12347F00012EB3 /* YSNewPwdViewController.swift */,
+				B81AC9541E12347F00012EB3 /* YSNewPwdViewController.xib */,
 				04ACD23F1DF400CB0026C9F8 /* YSPhoneValidateViewController.swift */,
 				04ACD2401DF400CB0026C9F8 /* YSPhoneValidateViewController.xib */,
 			);
@@ -366,6 +388,57 @@
 				C462FC0A5F9CF2C663C92536 /* Pods-YourStory.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		B84C65211E135DBB0039031F /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				B84C65221E135DBB0039031F /* Model */,
+				B84C65231E135DBB0039031F /* ViewControllers */,
+				B84C65241E135DBB0039031F /* Views */,
+			);
+			name = Settings;
+			path = Main/Settings;
+			sourceTree = "<group>";
+		};
+		B84C65221E135DBB0039031F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		B84C65231E135DBB0039031F /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				B84C65251E135DDF0039031F /* YSSettingViewController.swift */,
+				B84C65261E135DDF0039031F /* YSSettingViewController.xib */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		B84C65241E135DBB0039031F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B8E70A631E12161C0046C18C /* Comment */ = {
+			isa = PBXGroup;
+			children = (
+				B8E70A641E12161C0046C18C /* Functions */,
+			);
+			path = Comment;
+			sourceTree = "<group>";
+		};
+		B8E70A641E12161C0046C18C /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				B8E70A651E1216400046C18C /* Functions.swift */,
+				B84C651F1E126E6E0039031F /* Globals.swift */,
+			);
+			path = Functions;
 			sourceTree = "<group>";
 		};
 		D174CEB803D18A8A38D4170E /* Frameworks */ = {
@@ -489,6 +562,7 @@
 			files = (
 				04ACD2421DF400CB0026C9F8 /* YSPhoneValidateViewController.xib in Resources */,
 				04ACD23A1DF2AAB30026C9F8 /* YSLoginViewController.xib in Resources */,
+				B8E70A621E1210B70046C18C /* YSFogotPwdViewController.xib in Resources */,
 				0435B74D1DF29ECE006EC1F6 /* YSMyInfoViewController.xib in Resources */,
 				0435B72C1DF29EC5006EC1F6 /* BaseTabBarController.xib in Resources */,
 				0435B6FF1DF29E99006EC1F6 /* LaunchScreen.storyboard in Resources */,
@@ -499,9 +573,11 @@
 				0435B7531DF29ECE006EC1F6 /* YSWriteNavigationController.xib in Resources */,
 				0435B7301DF29EC5006EC1F6 /* BaseViewController.xib in Resources */,
 				0435B6FC1DF29E99006EC1F6 /* Assets.xcassets in Resources */,
+				B81AC9561E12347F00012EB3 /* YSNewPwdViewController.xib in Resources */,
 				0435B6FA1DF29E99006EC1F6 /* Main.storyboard in Resources */,
 				0435B7551DF29ECE006EC1F6 /* YSWriteStoryViewController.xib in Resources */,
 				0435B74F1DF29ECE006EC1F6 /* YSYourStoryNavigationController.xib in Resources */,
+				B84C65281E135DDF0039031F /* YSSettingViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -580,14 +656,19 @@
 				04ACD2351DF2A81B0026C9F8 /* UIViewExtension.swift in Sources */,
 				0435B72F1DF29EC5006EC1F6 /* BaseViewController.swift in Sources */,
 				0435B74C1DF29ECE006EC1F6 /* YSMyInfoViewController.swift in Sources */,
+				B84C65201E126E6E0039031F /* Globals.swift in Sources */,
 				0435B74A1DF29ECE006EC1F6 /* YSMyInfoNavigationViewController.swift in Sources */,
 				0435B6F51DF29E99006EC1F6 /* AppDelegate.swift in Sources */,
 				04ACD2411DF400CB0026C9F8 /* YSPhoneValidateViewController.swift in Sources */,
+				B81AC9551E12347F00012EB3 /* YSNewPwdViewController.swift in Sources */,
 				0435B7501DF29ECE006EC1F6 /* YSYourStoryViewController.swift in Sources */,
 				0435B7521DF29ECE006EC1F6 /* YSWriteNavigationController.swift in Sources */,
+				B8E70A661E1216400046C18C /* Functions.swift in Sources */,
 				0435B72D1DF29EC5006EC1F6 /* BaseNavigationController.swift in Sources */,
 				04ACD2391DF2AAB30026C9F8 /* YSLoginViewController.swift in Sources */,
 				0435B74E1DF29ECE006EC1F6 /* YSYourStoryNavigationController.swift in Sources */,
+				B84C65271E135DDF0039031F /* YSSettingViewController.swift in Sources */,
+				B8E70A611E1210B70046C18C /* YSFogotPwdViewController.swift in Sources */,
 				04ACD23D1DF3F6550026C9F8 /* YSRegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

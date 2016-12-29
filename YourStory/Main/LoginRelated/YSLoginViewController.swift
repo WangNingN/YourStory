@@ -43,7 +43,8 @@ class YSLoginViewController: BaseViewController {
     
     //忘记密码
     @IBAction func fogetPwd(_ sender: Any) {
-        
+        let fgtPwd = YSFogotPwdViewController()
+        self.navigationController?.pushViewController(fgtPwd, animated: true)
     }
     
     //注册
@@ -54,6 +55,7 @@ class YSLoginViewController: BaseViewController {
     
     //MARK:- 返回
     func backClick() -> Void {
+        configLoginStatus(isLogin: true)
         self.dismiss(animated: true, completion: nil)
     }
     
