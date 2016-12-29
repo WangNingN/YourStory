@@ -8,7 +8,7 @@
 
 import UIKit
 
-class YSMyInfoViewController: BaseViewController {
+class YSMyInfoViewController: BaseViewController,UIAlertViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -30,9 +30,11 @@ class YSMyInfoViewController: BaseViewController {
     }
     
     func settingAction() -> Void {
-        
+        let settings = YSSettingViewController()
+        settings.hidesBottomBarWhenPushed = true
+        self.navigationController?.pushViewController(settings, animated: true)
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

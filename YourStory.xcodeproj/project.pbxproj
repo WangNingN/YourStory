@@ -31,6 +31,16 @@
 		0435B7531DF29ECE006EC1F6 /* YSWriteNavigationController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0435B7471DF29ECE006EC1F6 /* YSWriteNavigationController.xib */; };
 		0435B7541DF29ECE006EC1F6 /* YSWriteStoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0435B7481DF29ECE006EC1F6 /* YSWriteStoryViewController.swift */; };
 		0435B7551DF29ECE006EC1F6 /* YSWriteStoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0435B7491DF29ECE006EC1F6 /* YSWriteStoryViewController.xib */; };
+		0443E10E1E154E440055E61E /* YSSettingHeadInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443E10C1E154E440055E61E /* YSSettingHeadInfoCell.swift */; };
+		0443E10F1E154E440055E61E /* YSSettingHeadInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0443E10D1E154E440055E61E /* YSSettingHeadInfoCell.xib */; };
+		0443E1121E1551610055E61E /* YSSettingListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443E1101E1551610055E61E /* YSSettingListCell.swift */; };
+		0443E1131E1551610055E61E /* YSSettingListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0443E1111E1551610055E61E /* YSSettingListCell.xib */; };
+		0443E1561E156AE60055E61E /* YSUserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443E1541E156AE60055E61E /* YSUserInfoViewController.swift */; };
+		0443E1571E156AE60055E61E /* YSUserInfoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0443E1551E156AE60055E61E /* YSUserInfoViewController.xib */; };
+		0443E15A1E156BF20055E61E /* YSUserInfoHeaderCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443E1581E156BF20055E61E /* YSUserInfoHeaderCell.swift */; };
+		0443E15B1E156BF20055E61E /* YSUserInfoHeaderCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0443E1591E156BF20055E61E /* YSUserInfoHeaderCell.xib */; };
+		0443E15E1E156D000055E61E /* YSUserInfoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0443E15C1E156D000055E61E /* YSUserInfoCell.swift */; };
+		0443E15F1E156D000055E61E /* YSUserInfoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0443E15D1E156D000055E61E /* YSUserInfoCell.xib */; };
 		04ACD2351DF2A81B0026C9F8 /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACD2341DF2A81B0026C9F8 /* UIViewExtension.swift */; };
 		04ACD2391DF2AAB30026C9F8 /* YSLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04ACD2371DF2AAB30026C9F8 /* YSLoginViewController.swift */; };
 		04ACD23A1DF2AAB30026C9F8 /* YSLoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04ACD2381DF2AAB30026C9F8 /* YSLoginViewController.xib */; };
@@ -98,6 +108,16 @@
 		0435B7471DF29ECE006EC1F6 /* YSWriteNavigationController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSWriteNavigationController.xib; sourceTree = "<group>"; };
 		0435B7481DF29ECE006EC1F6 /* YSWriteStoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSWriteStoryViewController.swift; sourceTree = "<group>"; };
 		0435B7491DF29ECE006EC1F6 /* YSWriteStoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSWriteStoryViewController.xib; sourceTree = "<group>"; };
+		0443E10C1E154E440055E61E /* YSSettingHeadInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSSettingHeadInfoCell.swift; sourceTree = "<group>"; };
+		0443E10D1E154E440055E61E /* YSSettingHeadInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSSettingHeadInfoCell.xib; sourceTree = "<group>"; };
+		0443E1101E1551610055E61E /* YSSettingListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSSettingListCell.swift; sourceTree = "<group>"; };
+		0443E1111E1551610055E61E /* YSSettingListCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSSettingListCell.xib; sourceTree = "<group>"; };
+		0443E1541E156AE60055E61E /* YSUserInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSUserInfoViewController.swift; sourceTree = "<group>"; };
+		0443E1551E156AE60055E61E /* YSUserInfoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSUserInfoViewController.xib; sourceTree = "<group>"; };
+		0443E1581E156BF20055E61E /* YSUserInfoHeaderCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSUserInfoHeaderCell.swift; sourceTree = "<group>"; };
+		0443E1591E156BF20055E61E /* YSUserInfoHeaderCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSUserInfoHeaderCell.xib; sourceTree = "<group>"; };
+		0443E15C1E156D000055E61E /* YSUserInfoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSUserInfoCell.swift; sourceTree = "<group>"; };
+		0443E15D1E156D000055E61E /* YSUserInfoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSUserInfoCell.xib; sourceTree = "<group>"; };
 		04ACD2341DF2A81B0026C9F8 /* UIViewExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
 		04ACD2371DF2AAB30026C9F8 /* YSLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSLoginViewController.swift; sourceTree = "<group>"; };
 		04ACD2381DF2AAB30026C9F8 /* YSLoginViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSLoginViewController.xib; sourceTree = "<group>"; };
@@ -171,7 +191,6 @@
 			isa = PBXGroup;
 			children = (
 				0435B6F41DF29E99006EC1F6 /* AppDelegate.swift */,
-				B84C65211E135DBB0039031F /* Settings */,
 				B8E70A631E12161C0046C18C /* Comment */,
 				04ACD2431DF408880026C9F8 /* Network */,
 				0435B7311DF29ECE006EC1F6 /* Main */,
@@ -235,6 +254,7 @@
 		0435B7311DF29ECE006EC1F6 /* Main */ = {
 			isa = PBXGroup;
 			children = (
+				B84C65211E135DBB0039031F /* Settings */,
 				04ACD2361DF2A9BF0026C9F8 /* LoginRelated */,
 				0435B73A1DF29ECE006EC1F6 /* Story */,
 				0435B7421DF29ECE006EC1F6 /* WriteStory */,
@@ -348,6 +368,28 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		0443E10A1E154E230055E61E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0443E10B1E154E2D0055E61E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0443E10C1E154E440055E61E /* YSSettingHeadInfoCell.swift */,
+				0443E10D1E154E440055E61E /* YSSettingHeadInfoCell.xib */,
+				0443E1101E1551610055E61E /* YSSettingListCell.swift */,
+				0443E1111E1551610055E61E /* YSSettingListCell.xib */,
+				0443E1581E156BF20055E61E /* YSUserInfoHeaderCell.swift */,
+				0443E1591E156BF20055E61E /* YSUserInfoHeaderCell.xib */,
+				0443E15C1E156D000055E61E /* YSUserInfoCell.swift */,
+				0443E15D1E156D000055E61E /* YSUserInfoCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		04ACD2331DF2A7B90026C9F8 /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -393,19 +435,11 @@
 		B84C65211E135DBB0039031F /* Settings */ = {
 			isa = PBXGroup;
 			children = (
-				B84C65221E135DBB0039031F /* Model */,
+				0443E10B1E154E2D0055E61E /* Views */,
+				0443E10A1E154E230055E61E /* Model */,
 				B84C65231E135DBB0039031F /* ViewControllers */,
-				B84C65241E135DBB0039031F /* Views */,
 			);
-			name = Settings;
-			path = Main/Settings;
-			sourceTree = "<group>";
-		};
-		B84C65221E135DBB0039031F /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
+			path = Settings;
 			sourceTree = "<group>";
 		};
 		B84C65231E135DBB0039031F /* ViewControllers */ = {
@@ -413,15 +447,10 @@
 			children = (
 				B84C65251E135DDF0039031F /* YSSettingViewController.swift */,
 				B84C65261E135DDF0039031F /* YSSettingViewController.xib */,
+				0443E1541E156AE60055E61E /* YSUserInfoViewController.swift */,
+				0443E1551E156AE60055E61E /* YSUserInfoViewController.xib */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		B84C65241E135DBB0039031F /* Views */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Views;
 			sourceTree = "<group>";
 		};
 		B8E70A631E12161C0046C18C /* Comment */ = {
@@ -561,9 +590,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				04ACD2421DF400CB0026C9F8 /* YSPhoneValidateViewController.xib in Resources */,
+				0443E10F1E154E440055E61E /* YSSettingHeadInfoCell.xib in Resources */,
+				0443E15F1E156D000055E61E /* YSUserInfoCell.xib in Resources */,
 				04ACD23A1DF2AAB30026C9F8 /* YSLoginViewController.xib in Resources */,
 				B8E70A621E1210B70046C18C /* YSFogotPwdViewController.xib in Resources */,
+				0443E1131E1551610055E61E /* YSSettingListCell.xib in Resources */,
+				0443E1571E156AE60055E61E /* YSUserInfoViewController.xib in Resources */,
 				0435B74D1DF29ECE006EC1F6 /* YSMyInfoViewController.xib in Resources */,
+				0443E15B1E156BF20055E61E /* YSUserInfoHeaderCell.xib in Resources */,
 				0435B72C1DF29EC5006EC1F6 /* BaseTabBarController.xib in Resources */,
 				0435B6FF1DF29E99006EC1F6 /* LaunchScreen.storyboard in Resources */,
 				0435B7511DF29ECE006EC1F6 /* YSYourStoryViewController.xib in Resources */,
@@ -650,7 +684,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0443E15E1E156D000055E61E /* YSUserInfoCell.swift in Sources */,
 				0435B7541DF29ECE006EC1F6 /* YSWriteStoryViewController.swift in Sources */,
+				0443E1561E156AE60055E61E /* YSUserInfoViewController.swift in Sources */,
 				04ACD2451DF408AB0026C9F8 /* YSNetWorkManager.swift in Sources */,
 				0435B72B1DF29EC5006EC1F6 /* BaseTabBarController.swift in Sources */,
 				04ACD2351DF2A81B0026C9F8 /* UIViewExtension.swift in Sources */,
@@ -658,9 +694,12 @@
 				0435B74C1DF29ECE006EC1F6 /* YSMyInfoViewController.swift in Sources */,
 				B84C65201E126E6E0039031F /* Globals.swift in Sources */,
 				0435B74A1DF29ECE006EC1F6 /* YSMyInfoNavigationViewController.swift in Sources */,
+				0443E1121E1551610055E61E /* YSSettingListCell.swift in Sources */,
 				0435B6F51DF29E99006EC1F6 /* AppDelegate.swift in Sources */,
 				04ACD2411DF400CB0026C9F8 /* YSPhoneValidateViewController.swift in Sources */,
 				B81AC9551E12347F00012EB3 /* YSNewPwdViewController.swift in Sources */,
+				0443E15A1E156BF20055E61E /* YSUserInfoHeaderCell.swift in Sources */,
+				0443E10E1E154E440055E61E /* YSSettingHeadInfoCell.swift in Sources */,
 				0435B7501DF29ECE006EC1F6 /* YSYourStoryViewController.swift in Sources */,
 				0435B7521DF29ECE006EC1F6 /* YSWriteNavigationController.swift in Sources */,
 				B8E70A661E1216400046C18C /* Functions.swift in Sources */,
