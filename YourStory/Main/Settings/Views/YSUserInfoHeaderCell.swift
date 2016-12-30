@@ -7,9 +7,12 @@
 //
 
 import UIKit
+import SDWebImage
 
 class YSUserInfoHeaderCell: UITableViewCell {
 
+    @IBOutlet var labelTitle: UILabel!
+    @IBOutlet var imageHead: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
@@ -19,6 +22,15 @@ class YSUserInfoHeaderCell: UITableViewCell {
         super.setSelected(selected, animated: animated)
 
         // Configure the view for the selected state
+    }
+    
+    func configData(model:YSUserInfoHeadModel) -> Void {
+        self.labelTitle.text = model.strTitle
+        if let image = model.head.image {
+            self.imageHead.image = image
+        }else if let url = model.head.url {
+            self.imageHead.sd_setImage(with: URL(string: url), placeholderImage: nil)
+        }
     }
     
 }

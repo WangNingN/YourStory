@@ -19,6 +19,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>SDWebImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>SVProgressHUD-0.8.1.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,22 +37,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1C7FAE93EAD8524C444DACC1522C9561</key>
+		<key>7E424491EFB163F8CC21F11F0A988186</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>83F7A712F5D4C3CF8CC8FEF6D1DCC627</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>84AC83942072F8B0C0DDB47A58B956F2</key>
+		<key>8B4BE588DABF96B54964666339164082</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>92853842422227B864849BAC86FF477E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>AFCE8C791E41F8857F90C708120BB76F</key>
 		<dict>
 			<key>primary</key>
 			<true/>

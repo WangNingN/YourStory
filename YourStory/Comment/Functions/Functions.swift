@@ -8,6 +8,7 @@
 
 import Foundation
 import UIKit
+import CoreData
 
 // MARK:- 判断是否登录
 public func isLogin() -> Bool {
@@ -51,3 +52,60 @@ public func isVailidPhoneNumber(phoneNumber:String) -> (Bool) {
         return false
     }
 }
+
+/*
+/// 图片翻转，使图片正向
+public func imageRotate(img:UIImage) -> UIImage {
+    if img.imageOrientation == UIImageOrientation.up
+    {
+        return img
+    }
+    
+//    var transform = CGAffineTransformIdentity
+    var transform = CGAffineTransform()
+    
+    switch img.imageOrientation
+    {
+    case UIImageOrientation.down,UIImageOrientation.downMirrored:
+        transform = transform.translatedBy(x: img.size.width, y: img.size.height)
+        transform = transform.rotated(by: CGFloat(M_PI))
+    case UIImageOrientation.left,UIImageOrientation.leftMirrored:
+        transform = transform.translatedBy(x: img.size.width, y: 0)
+        transform = transform.rotated(by: CGFloat(M_PI_2))
+    case UIImageOrientation.right,UIImageOrientation.rightMirrored:
+        transform = transform.translatedBy(x: 0, y: img.size.height)
+        transform = transform.rotated(by: CGFloat(-M_PI_2))
+    default:
+        print("")
+    }
+    
+    switch img.imageOrientation
+    {
+    case UIImageOrientation.upMirrored,UIImageOrientation.downMirrored:
+        transform = transform.translatedBy(x: img.size.width, y: 0)
+        transform = transform.scaledBy(x: -1, y: 1)
+    case UIImageOrientation.leftMirrored,UIImageOrientation.rightMirrored:
+        transform = transform.translatedBy(x: img.size.height, y: 0)
+        transform = transform.scaledBy(x: -1, y: 1)
+    default:
+        print("")
+    }
+    let ctx = CGContext(data: nil, width: Int(img.size.width), height: Int(img.size.height), bitsPerComponent: img.cgImage!.bitsPerComponent, bytesPerRow: 0, space: img.cgImage!.colorSpace!, bitmapInfo: img.cgImage!.bitmapInfo.rawValue)
+    ctx!.concatenate(transform)
+    
+    switch img.imageOrientation
+    {//CGRect(0, 0, img.size.height, img.size.width)
+    case UIImageOrientation.left,
+         UIImageOrientation.leftMirrored,
+         UIImageOrientation.rightMirrored,
+         UIImageOrientation.right:
+        CGContextDrawImage(ctx!,CGRect(x: 0, y: 0, width: 1, height: 1) , img.cgImage!)
+        
+    default:
+        CGContextDrawImage(ctx!, CGRectMake(0,0,img.size.width,img.size.height), img.cgImage!)
+    }
+    let cgImg = CGBitmapContextCreateImage(ctx!)
+    let image = UIImage(CGImage: cgImg!)
+    return image
+}
+*/

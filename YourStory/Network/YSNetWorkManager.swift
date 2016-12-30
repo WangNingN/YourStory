@@ -11,7 +11,7 @@ import AFNetworking
 
 class YSNetWorkManager: NSObject {
     static let shareSingle = YSNetWorkManager()
-    let netIp = "http://123.114.234.166:8999/doga/"
+    let netIp = "http://www.bat360.cn/doga/"
     
     private func configUrl(actionString:String) -> String {
         return netIp + actionString + "?"
@@ -34,7 +34,8 @@ class YSNetWorkManager: NSObject {
         let afn = AFHTTPSessionManager()
         let url = configUrl(actionString: "login.action")
         let par = ["username":18611111111,"password":111111]
-        afn.get(url, parameters: par, progress: nil, success: {(data,request) in
+//        afn.post(url, parameters: par, progress: nil, success: ((URLSessionDataTask, Any?) -> Void)?, failure: <#T##((URLSessionDataTask?, Error) -> Void)?##((URLSessionDataTask?, Error) -> Void)?##(URLSessionDataTask?, Error) -> Void#>)
+        afn.post(url, parameters: par, progress: nil, success: {(data,request) in
             print("data ---- \(request)")
         }, failure: {(data,error) in
             print("error --- \(error)")

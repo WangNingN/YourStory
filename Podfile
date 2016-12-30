@@ -5,6 +5,7 @@ def pods
 pod 'AFNetworking', '~> 3.1.0'
 pod 'BFKit'
 pod 'SVProgressHUD-0.8.1'
+pod 'SDWebImage'
 end
 
 

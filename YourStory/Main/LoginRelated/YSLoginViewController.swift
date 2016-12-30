@@ -37,8 +37,8 @@ class YSLoginViewController: BaseViewController {
     @IBAction func loginHandle(_ sender: Any) {
         let network = YSNetWorkManager.shareSingle
 //        network.networkRegisterWithNickName(name: "name", phone: "f", pwd: "")
-//        network.networkLoginWithNickName(username: "", password: "")
-        network.networkChangeNickNameWithNickName(username: "", password: "")
+        network.networkLoginWithNickName(username: "", password: "")
+//        network.networkChangeNickNameWithNickName(username: "", password: "")
     }
     
     //忘记密码

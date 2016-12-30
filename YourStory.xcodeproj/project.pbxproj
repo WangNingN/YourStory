@@ -54,6 +54,9 @@
 		B84C65201E126E6E0039031F /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84C651F1E126E6E0039031F /* Globals.swift */; };
 		B84C65271E135DDF0039031F /* YSSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84C65251E135DDF0039031F /* YSSettingViewController.swift */; };
 		B84C65281E135DDF0039031F /* YSSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B84C65261E135DDF0039031F /* YSSettingViewController.xib */; };
+		B87D1C5F1E164AD600FFAEE2 /* YSUserInfoViewController + changeHead.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87D1C5E1E164AD600FFAEE2 /* YSUserInfoViewController + changeHead.swift */; };
+		B87D1C611E16592300FFAEE2 /* YSUserinfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87D1C601E16592300FFAEE2 /* YSUserinfoModel.swift */; };
+		B87D1C651E165B1700FFAEE2 /* YSUserInfoHeadModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B87D1C641E165B1700FFAEE2 /* YSUserInfoHeadModel.swift */; };
 		B8E70A611E1210B70046C18C /* YSFogotPwdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E70A5F1E1210B70046C18C /* YSFogotPwdViewController.swift */; };
 		B8E70A621E1210B70046C18C /* YSFogotPwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8E70A601E1210B70046C18C /* YSFogotPwdViewController.xib */; };
 		B8E70A661E1216400046C18C /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E70A651E1216400046C18C /* Functions.swift */; };
@@ -133,6 +136,9 @@
 		B84C651F1E126E6E0039031F /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 		B84C65251E135DDF0039031F /* YSSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSSettingViewController.swift; sourceTree = "<group>"; };
 		B84C65261E135DDF0039031F /* YSSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSSettingViewController.xib; sourceTree = "<group>"; };
+		B87D1C5E1E164AD600FFAEE2 /* YSUserInfoViewController + changeHead.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "YSUserInfoViewController + changeHead.swift"; sourceTree = "<group>"; };
+		B87D1C601E16592300FFAEE2 /* YSUserinfoModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSUserinfoModel.swift; sourceTree = "<group>"; };
+		B87D1C641E165B1700FFAEE2 /* YSUserInfoHeadModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSUserInfoHeadModel.swift; sourceTree = "<group>"; };
 		B8E70A5F1E1210B70046C18C /* YSFogotPwdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSFogotPwdViewController.swift; sourceTree = "<group>"; };
 		B8E70A601E1210B70046C18C /* YSFogotPwdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSFogotPwdViewController.xib; sourceTree = "<group>"; };
 		B8E70A651E1216400046C18C /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
@@ -371,6 +377,8 @@
 		0443E10A1E154E230055E61E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				B87D1C601E16592300FFAEE2 /* YSUserinfoModel.swift */,
+				B87D1C641E165B1700FFAEE2 /* YSUserInfoHeadModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -449,6 +457,7 @@
 				B84C65261E135DDF0039031F /* YSSettingViewController.xib */,
 				0443E1541E156AE60055E61E /* YSUserInfoViewController.swift */,
 				0443E1551E156AE60055E61E /* YSUserInfoViewController.xib */,
+				B87D1C5E1E164AD600FFAEE2 /* YSUserInfoViewController + changeHead.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -685,7 +694,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0443E15E1E156D000055E61E /* YSUserInfoCell.swift in Sources */,
+				B87D1C5F1E164AD600FFAEE2 /* YSUserInfoViewController + changeHead.swift in Sources */,
 				0435B7541DF29ECE006EC1F6 /* YSWriteStoryViewController.swift in Sources */,
+				B87D1C651E165B1700FFAEE2 /* YSUserInfoHeadModel.swift in Sources */,
 				0443E1561E156AE60055E61E /* YSUserInfoViewController.swift in Sources */,
 				04ACD2451DF408AB0026C9F8 /* YSNetWorkManager.swift in Sources */,
 				0435B72B1DF29EC5006EC1F6 /* BaseTabBarController.swift in Sources */,
@@ -694,6 +705,7 @@
 				0435B74C1DF29ECE006EC1F6 /* YSMyInfoViewController.swift in Sources */,
 				B84C65201E126E6E0039031F /* Globals.swift in Sources */,
 				0435B74A1DF29ECE006EC1F6 /* YSMyInfoNavigationViewController.swift in Sources */,
+				B87D1C611E16592300FFAEE2 /* YSUserinfoModel.swift in Sources */,
 				0443E1121E1551610055E61E /* YSSettingListCell.swift in Sources */,
 				0435B6F51DF29E99006EC1F6 /* AppDelegate.swift in Sources */,
 				04ACD2411DF400CB0026C9F8 /* YSPhoneValidateViewController.swift in Sources */,

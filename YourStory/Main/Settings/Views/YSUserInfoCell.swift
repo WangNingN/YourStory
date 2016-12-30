@@ -23,4 +23,9 @@ class YSUserInfoCell: UITableViewCell {
         // Configure the view for the selected state
     }
     
+    func configData(model:YSUserinfoModel) -> Void {
+        self.titleLabel.text = model.strTitle
+        self.detailLabel.text = model.strDetail
+    }
+    
 }
