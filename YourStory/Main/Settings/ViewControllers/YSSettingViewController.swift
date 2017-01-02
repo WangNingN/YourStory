@@ -80,7 +80,8 @@ class YSSettingViewController: BaseViewController,UITableViewDelegate,UITableVie
     
     //MARK:- 退出登录
     func logoutAction() -> Void {
-        
+        let alert = UIAlertView(title: "退出登录", message: "确认退出？", delegate: nil, cancelButtonTitle: "取消", otherButtonTitles: "退出")
+        alert.show()
     }
     
     override func didReceiveMemoryWarning() {

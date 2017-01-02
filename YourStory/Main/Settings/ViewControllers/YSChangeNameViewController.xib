@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16A323" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="YSChangeNameViewController" customModule="YourStory" customModuleProvider="target">
+            <connections>
+                <outlet property="nameTF" destination="YTw-2U-Bfy" id="3e5-ST-hY4"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="wDr-Xa-TwX">
+                    <rect key="frame" x="0.0" y="72" width="375" height="35"/>
+                    <subviews>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="昵称" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="no6-A2-roE">
+                            <rect key="frame" x="8" y="7.5" width="35" height="20.5"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <nil key="textColor"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="YTw-2U-Bfy">
+                            <rect key="frame" x="51" y="0.0" width="316" height="35"/>
+                            <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                            <textInputTraits key="textInputTraits"/>
+                        </textField>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="YTw-2U-Bfy" firstAttribute="centerY" secondItem="wDr-Xa-TwX" secondAttribute="centerY" id="7ez-BP-5El"/>
+                        <constraint firstItem="no6-A2-roE" firstAttribute="leading" secondItem="wDr-Xa-TwX" secondAttribute="leading" constant="8" id="7sL-BV-VKO"/>
+                        <constraint firstAttribute="height" constant="35" id="Eij-kF-NXm"/>
+                        <constraint firstItem="YTw-2U-Bfy" firstAttribute="leading" secondItem="no6-A2-roE" secondAttribute="trailing" constant="8" id="EyZ-eb-YBg"/>
+                        <constraint firstItem="no6-A2-roE" firstAttribute="centerY" secondItem="wDr-Xa-TwX" secondAttribute="centerY" id="NnC-0p-RHN"/>
+                        <constraint firstItem="YTw-2U-Bfy" firstAttribute="top" secondItem="wDr-Xa-TwX" secondAttribute="top" id="Sl3-oe-dYk"/>
+                        <constraint firstAttribute="trailing" secondItem="YTw-2U-Bfy" secondAttribute="trailing" constant="8" id="Xap-0g-9Ot"/>
+                        <constraint firstAttribute="bottom" secondItem="YTw-2U-Bfy" secondAttribute="bottom" id="iu9-w1-xPe"/>
+                    </constraints>
+                </view>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="仅可使用汉字、字母、数字或下划线组成" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JTC-T2-7w9">
+                    <rect key="frame" x="8" y="115" width="359" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.93323183060000003" green="0.93339174989999996" blue="0.93322181699999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="wDr-Xa-TwX" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="72" id="DqO-BZ-qpa"/>
+                <constraint firstAttribute="trailing" secondItem="JTC-T2-7w9" secondAttribute="trailing" constant="8" id="Eq5-mj-3U2"/>
+                <constraint firstAttribute="trailing" secondItem="wDr-Xa-TwX" secondAttribute="trailing" id="Gac-A4-c03"/>
+                <constraint firstItem="JTC-T2-7w9" firstAttribute="top" secondItem="wDr-Xa-TwX" secondAttribute="bottom" constant="8" id="GoF-dB-hx2"/>
+                <constraint firstItem="wDr-Xa-TwX" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="Sk2-r3-LzS"/>
+                <constraint firstItem="JTC-T2-7w9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="8" id="ord-NW-8gZ"/>
+            </constraints>
+            <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+            <point key="canvasLocation" x="528.5" y="-795.5"/>
+        </view>
+    </objects>
+</document>

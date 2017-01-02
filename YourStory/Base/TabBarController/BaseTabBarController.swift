@@ -8,7 +8,7 @@
 
 import UIKit
 
-class BaseTabBarController: UITabBarController {
+class BaseTabBarController: UITabBarController,UITabBarControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -17,12 +17,15 @@ class BaseTabBarController: UITabBarController {
 
     func configControllers() -> Void {
         
+        self.delegate = self
+        
         let attributes =  [NSForegroundColorAttributeName: UIColor.darkGray]
 
         let storyVC = YSYourStoryViewController()
         let navStory = YSYourStoryNavigationController(rootViewController: storyVC)
         navStory.tabBarItem.image = UIImage(named: "tabbar_yourStory")?.withRenderingMode(.alwaysOriginal)
         navStory.tabBarItem.title = "故事"
+        navStory.tabBarItem.tag = 0
         navStory.tabBarItem.setTitleTextAttributes(attributes, for: .selected)
         self.addChildViewController(navStory)
         
@@ -30,6 +33,7 @@ class BaseTabBarController: UITabBarController {
         let navWriteStory = YSWriteNavigationController(rootViewController: writeStoryVC)
         navWriteStory.tabBarItem.image = UIImage(named: "tabbar_writeStory")?.withRenderingMode(.alwaysOriginal)
         navWriteStory.tabBarItem.title = "讲故事"
+        navWriteStory.tabBarItem.tag = 1
         navWriteStory.tabBarItem.setTitleTextAttributes(attributes, for: .selected)
         self.addChildViewController(navWriteStory)
         
@@ -37,9 +41,20 @@ class BaseTabBarController: UITabBarController {
         let navMyInfo = YSWriteNavigationController(rootViewController: myInfoVC)
         navMyInfo.tabBarItem.image = UIImage(named: "tabbar_my")?.withRenderingMode(.alwaysOriginal)
         navMyInfo.tabBarItem.title = "我的"
+        navMyInfo.tabBarItem.tag = 2
         navMyInfo.tabBarItem.setTitleTextAttributes(attributes, for: .selected)
         self.addChildViewController(navMyInfo)
         
+    }
+    
+    func tabBarController(_ tabBarController: UITabBarController, shouldSelect viewController: UIViewController) -> Bool {
+        if viewController.tabBarItem.tag == 1  {
+            let writeStoryVC = YSWriteStoryViewController()
+            let currentVC = self.selectedViewController
+            currentVC?.present(writeStoryVC, animated: true, completion: nil)
+            return false
+        }
+        return true
     }
     
     override func didReceiveMemoryWarning() {

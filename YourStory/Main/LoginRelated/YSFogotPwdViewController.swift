@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import SVProgressHUD_0_8_1
+import SVProgressHUD
 
 class YSFogotPwdViewController: BaseViewController,UITextFieldDelegate {
     @IBOutlet var phoneTF: UITextField!

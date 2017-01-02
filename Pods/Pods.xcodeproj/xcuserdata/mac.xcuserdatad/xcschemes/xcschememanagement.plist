@@ -8,27 +8,26 @@
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>1</integer>
 		</dict>
 		<key>BFKit.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>2</integer>
 		</dict>
 		<key>Pods-YourStory.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
-			<key>orderHint</key>
-			<integer>3</integer>
 		</dict>
-		<key>SVProgressHUD-0.8.1.xcscheme</key>
+		<key>SDWebImage.xcscheme</key>
 		<dict>
-			<key>orderHint</key>
-			<integer>4</integer>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>SVProgressHUD.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
 		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
@@ -38,22 +37,22 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1C7FAE93EAD8524C444DACC1522C9561</key>
+		<key>355B54C55BFEB35E59A488F1731B01CE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>83F7A712F5D4C3CF8CC8FEF6D1DCC627</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>84AC83942072F8B0C0DDB47A58B956F2</key>
+		<key>6521B35B71A1A10DC3FFC0FAB28F9F2D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>92853842422227B864849BAC86FF477E</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>CA5868CC3FDBCCEF07A540190656FFA3</key>
 		<dict>
 			<key>primary</key>
 			<true/>

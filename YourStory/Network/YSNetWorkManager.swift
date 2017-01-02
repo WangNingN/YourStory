@@ -53,4 +53,16 @@ class YSNetWorkManager: NSObject {
             print("error --- \(error)")
         })
     }
+    
+    //MARK: - 帖子列表
+    func networkPostListWithNickName(username:String, password:String) -> Void {
+        let afn = AFHTTPSessionManager()
+        let url = configUrl(actionString: "pl.action")
+        let par = ["pageNo":1,"pageSize":10]
+        afn.post(url, parameters: par, progress: nil, success: {(data,request) in
+            print("data ---- \(request)")
+        }, failure: {(data,error) in
+            print("error --- \(error)")
+        })
+    }
 }

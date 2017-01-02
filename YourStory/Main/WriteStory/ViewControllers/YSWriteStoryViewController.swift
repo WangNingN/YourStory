@@ -8,14 +8,49 @@
 
 import UIKit
 
-class YSWriteStoryViewController: BaseViewController {
-
+class YSWriteStoryViewController: BaseViewController,UITextViewDelegate {
+    @IBOutlet var textViewBottomConstraint: NSLayoutConstraint!
+    @IBOutlet var titleTF: UITextField!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        NotificationCenter.default.addObserver(self, selector: #selector(keyboardWillShow), name:NSNotification.Name.UIKeyboardWillShow, object: nil)
+//        let saveBtn = UIBarButtonItem(title: "发布", style: UIBarButtonItemStyle.plain, target: self, action: #selector(saveAction))
+//        self.navigationItem.rightBarButtonItem = saveBtn
     }
 
+    //MARK:- 发布
+    @IBAction func publishAction(_ sender: Any) {
+        
+    }
+    
+    @IBAction func back(_ sender: Any) {
+        self.dismiss(animated: true, completion: nil)
+    }
+    
+//    //MARK:- 发布
+//    func saveAction() -> Void {
+//        
+//    }
+    
+    func keyboardWillShow(notification:NSNotification) -> Void {
+        let userinfo = notification.userInfo
+        let value = userinfo?[UIKeyboardFrameEndUserInfoKey] as? NSValue
+        let keyboardRect = value?.cgRectValue
+        let keyboardHeight = keyboardRect?.height
+        textViewBottomConstraint.constant = keyboardHeight!
+    }
+    
+    func textViewShouldBeginEditing(_ textView: UITextView) -> Bool {
+        
+        return true
+    }
+    
+    func textView(_ textView: UITextView, shouldChangeTextIn range: NSRange, replacementText text: String) -> Bool {
+        
+        return true
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

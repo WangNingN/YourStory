@@ -16,7 +16,8 @@ class YSYourStoryViewController: BaseViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
 //        presentLoginVC()
-
+        let network = YSNetWorkManager.shareSingle;
+        network.networkPostListWithNickName(username: "", password: "")
     }
     
     func configTabar() -> Void {

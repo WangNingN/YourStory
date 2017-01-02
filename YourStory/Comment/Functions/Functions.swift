@@ -9,7 +9,23 @@
 import Foundation
 import UIKit
 import CoreData
+import SVProgressHUD
 
+//
+public func showHUD() -> Void {
+//    let delayTime = DispatchTime.now(dispatch_time_t(DISPATCH_TIME_NOW), Int64(3 * Double(NSEC_PER_SEC)))
+    /*
+     let delayTime = dispatch_time(DISPATCH_TIME_NOW, Int64(3 * Double(NSEC_PER_SEC)))
+     dispatch_after(delayTime, dispatch_get_main_queue()) { () -> Void in
+     //延迟3秒，执行的操作
+     }
+     */
+//    DISPATCH_TIME_NOW
+    
+    DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 2, execute: {
+        print("2秒延迟")
+    })
+}
 // MARK:- 判断是否登录
 public func isLogin() -> Bool {
     return UserDefaults.standard.bool(forKey: global_userDefaultsKey_isLogin)
@@ -36,15 +52,25 @@ public func tabbarHeight() -> CGFloat {
     return 48
 }
 
+// MARK: - 正则表达式-验证昵称(数字、字母、下划线)
+public func isValidName(name:String) -> Bool {
+    let pattern = "^[0-9a-zA-Z_]{1,}$"
+    return matchePattern(pattern: pattern, str: name)
+}
+
 // MARK: - 正则表达式-验证是否手机号码
 public func isVailidPhoneNumber(phoneNumber:String) -> (Bool) {
+    let pattern = "^1(3[0-9]|4[579]|5[0-35-9]|7[013567]|8[0-9])\\d{8}$"
+    return matchePattern(pattern: pattern, str: phoneNumber)
+}
+
+// MARK: - 私有方法，匹配正则表达式
+private func matchePattern(pattern:String, str:String) -> Bool {
     do {
-        // - 1、创建规则
-        let pattern = "^1(3[0-9]|4[579]|5[0-35-9]|7[013567]|8[0-9])\\d{8}$"
-        // - 2、创建正则表达式对象
+        // - 1、创建正则表达式对象
         let regex = try NSRegularExpression(pattern: pattern, options: NSRegularExpression.Options.caseInsensitive)
-        // - 3、开始匹配
-        let res = regex.matches(in: phoneNumber, options: NSRegularExpression.MatchingOptions(rawValue: 0), range: NSMakeRange(0, phoneNumber.characters.count))
+        // - 2、开始匹配
+        let res = regex.matches(in: str, options: NSRegularExpression.MatchingOptions(rawValue: 0), range: NSMakeRange(0, str.characters.count))
         // 输出结果
         return !res.isEmpty
     }

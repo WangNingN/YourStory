@@ -86,6 +86,32 @@ class YSUserInfoViewController: BaseViewController,UITableViewDelegate,UITableVi
             //修改头像
             changeHeadImage()
         }
+        if indexPath.section == 1 {
+            switch indexPath.row {
+            case 0:
+                changeName()
+            case 1:
+                changePassword()
+            default:
+                break
+            }
+        }
+    }
+    
+    //MARK:- 修改昵称
+    func changeName() -> Void {
+        let userModel = self.userInfoArr[0]
+        guard let name = userModel.strDetail else{
+            return
+        }
+        let changename = YSChangeNameViewController(name: name)
+        self.navigationController?.pushViewController(changename, animated: true)
+    }
+    
+    //MARK:- 修改密码
+    func changePassword() -> Void {
+        let changepwd = YSChangePwdViewController()
+        self.navigationController?.pushViewController(changepwd, animated: true)
     }
     
     override func didReceiveMemoryWarning() {
