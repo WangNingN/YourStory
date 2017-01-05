@@ -27,7 +27,7 @@ class YSUserInfoViewController: BaseViewController,UITableViewDelegate,UITableVi
         //头像数据
         let headModel = YSUserInfoHeadModel()
         headModel.strTitle = "头像"
-        headModel.head.url = "http://47.88.136.37/2016/12/21/0254a27b-ca63-46bc-4bf6-5a39a76ad168.jpg"
+        headModel.head.url = HEAD_URL
         headArr.append(headModel)
         
         //除去头像以外的个人信息

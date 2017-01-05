@@ -56,6 +56,8 @@
 		04B3A1CF1E195C1800073878 /* SVProgressHUD+Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04B3A1CE1E195C1800073878 /* SVProgressHUD+Category.swift */; };
 		B81AC9551E12347F00012EB3 /* YSNewPwdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B81AC9531E12347F00012EB3 /* YSNewPwdViewController.swift */; };
 		B81AC9561E12347F00012EB3 /* YSNewPwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B81AC9541E12347F00012EB3 /* YSNewPwdViewController.xib */; };
+		B832903B1E1B98930076E535 /* YSPostListModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B832903A1E1B98930076E535 /* YSPostListModel.swift */; };
+		B832903D1E1B9B4B0076E535 /* TestData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B832903C1E1B9B4B0076E535 /* TestData.swift */; };
 		B84C65201E126E6E0039031F /* Globals.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84C651F1E126E6E0039031F /* Globals.swift */; };
 		B84C65271E135DDF0039031F /* YSSettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B84C65251E135DDF0039031F /* YSSettingViewController.swift */; };
 		B84C65281E135DDF0039031F /* YSSettingViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B84C65261E135DDF0039031F /* YSSettingViewController.xib */; };
@@ -65,6 +67,9 @@
 		B8E70A611E1210B70046C18C /* YSFogotPwdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E70A5F1E1210B70046C18C /* YSFogotPwdViewController.swift */; };
 		B8E70A621E1210B70046C18C /* YSFogotPwdViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8E70A601E1210B70046C18C /* YSFogotPwdViewController.xib */; };
 		B8E70A661E1216400046C18C /* Functions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8E70A651E1216400046C18C /* Functions.swift */; };
+		B8F76E841E1B862000EA0C0F /* YSYourStoryViewController+TableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F76E831E1B862000EA0C0F /* YSYourStoryViewController+TableView.swift */; };
+		B8F76E891E1B87D500EA0C0F /* YSPostListCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B8F76E871E1B87D500EA0C0F /* YSPostListCellTableViewCell.swift */; };
+		B8F76E8A1E1B87D500EA0C0F /* YSPostListCellTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B8F76E881E1B87D500EA0C0F /* YSPostListCellTableViewCell.xib */; };
 		E1759EA7391626395B029A64 /* Pods_YourStory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 553A097F2C0510D21E14E5D5 /* Pods_YourStory.framework */; };
 /* End PBXBuildFile section */
 
@@ -143,6 +148,8 @@
 		553A097F2C0510D21E14E5D5 /* Pods_YourStory.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YourStory.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B81AC9531E12347F00012EB3 /* YSNewPwdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSNewPwdViewController.swift; sourceTree = "<group>"; };
 		B81AC9541E12347F00012EB3 /* YSNewPwdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSNewPwdViewController.xib; sourceTree = "<group>"; };
+		B832903A1E1B98930076E535 /* YSPostListModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSPostListModel.swift; sourceTree = "<group>"; };
+		B832903C1E1B9B4B0076E535 /* TestData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestData.swift; sourceTree = "<group>"; };
 		B84C651F1E126E6E0039031F /* Globals.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Globals.swift; sourceTree = "<group>"; };
 		B84C65251E135DDF0039031F /* YSSettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSSettingViewController.swift; sourceTree = "<group>"; };
 		B84C65261E135DDF0039031F /* YSSettingViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSSettingViewController.xib; sourceTree = "<group>"; };
@@ -152,6 +159,9 @@
 		B8E70A5F1E1210B70046C18C /* YSFogotPwdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSFogotPwdViewController.swift; sourceTree = "<group>"; };
 		B8E70A601E1210B70046C18C /* YSFogotPwdViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSFogotPwdViewController.xib; sourceTree = "<group>"; };
 		B8E70A651E1216400046C18C /* Functions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Functions.swift; sourceTree = "<group>"; };
+		B8F76E831E1B862000EA0C0F /* YSYourStoryViewController+TableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "YSYourStoryViewController+TableView.swift"; sourceTree = "<group>"; };
+		B8F76E871E1B87D500EA0C0F /* YSPostListCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YSPostListCellTableViewCell.swift; sourceTree = "<group>"; };
+		B8F76E881E1B87D500EA0C0F /* YSPostListCellTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = YSPostListCellTableViewCell.xib; sourceTree = "<group>"; };
 		C462FC0A5F9CF2C663C92536 /* Pods-YourStory.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YourStory.release.xcconfig"; path = "Pods/Target Support Files/Pods-YourStory/Pods-YourStory.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -207,6 +217,7 @@
 			isa = PBXGroup;
 			children = (
 				0435B6F41DF29E99006EC1F6 /* AppDelegate.swift */,
+				B832903C1E1B9B4B0076E535 /* TestData.swift */,
 				04B3A1CC1E195BDA00073878 /* Others */,
 				B8E70A631E12161C0046C18C /* Comment */,
 				04ACD2431DF408880026C9F8 /* Network */,
@@ -318,25 +329,11 @@
 		0435B73A1DF29ECE006EC1F6 /* Story */ = {
 			isa = PBXGroup;
 			children = (
-				0435B73B1DF29ECE006EC1F6 /* Model */,
-				0435B73C1DF29ECE006EC1F6 /* View */,
+				B8F76E861E1B878700EA0C0F /* Models */,
+				B8F76E851E1B878000EA0C0F /* Views */,
 				0435B73D1DF29ECE006EC1F6 /* ViewControllers */,
 			);
 			path = Story;
-			sourceTree = "<group>";
-		};
-		0435B73B1DF29ECE006EC1F6 /* Model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Model;
-			sourceTree = "<group>";
-		};
-		0435B73C1DF29ECE006EC1F6 /* View */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = View;
 			sourceTree = "<group>";
 		};
 		0435B73D1DF29ECE006EC1F6 /* ViewControllers */ = {
@@ -346,6 +343,7 @@
 				0435B73F1DF29ECE006EC1F6 /* YSYourStoryNavigationController.xib */,
 				0435B7401DF29ECE006EC1F6 /* YSYourStoryViewController.swift */,
 				0435B7411DF29ECE006EC1F6 /* YSYourStoryViewController.xib */,
+				B8F76E831E1B862000EA0C0F /* YSYourStoryViewController+TableView.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -510,6 +508,23 @@
 			path = Functions;
 			sourceTree = "<group>";
 		};
+		B8F76E851E1B878000EA0C0F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B8F76E871E1B87D500EA0C0F /* YSPostListCellTableViewCell.swift */,
+				B8F76E881E1B87D500EA0C0F /* YSPostListCellTableViewCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B8F76E861E1B878700EA0C0F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B832903A1E1B98930076E535 /* YSPostListModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		D174CEB803D18A8A38D4170E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -648,6 +663,7 @@
 				0435B72E1DF29EC5006EC1F6 /* BaseNavigationController.xib in Resources */,
 				0435B7531DF29ECE006EC1F6 /* YSWriteNavigationController.xib in Resources */,
 				0435B7301DF29EC5006EC1F6 /* BaseViewController.xib in Resources */,
+				B8F76E8A1E1B87D500EA0C0F /* YSPostListCellTableViewCell.xib in Resources */,
 				0435B6FC1DF29E99006EC1F6 /* Assets.xcassets in Resources */,
 				B81AC9561E12347F00012EB3 /* YSNewPwdViewController.xib in Resources */,
 				0435B6FA1DF29E99006EC1F6 /* Main.storyboard in Resources */,
@@ -727,11 +743,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0443E15E1E156D000055E61E /* YSUserInfoCell.swift in Sources */,
+				B8F76E891E1B87D500EA0C0F /* YSPostListCellTableViewCell.swift in Sources */,
 				B87D1C5F1E164AD600FFAEE2 /* YSUserInfoViewController + changeHead.swift in Sources */,
 				04B3A1CA1E193DB300073878 /* YSChangePwdViewController.swift in Sources */,
 				0435B7541DF29ECE006EC1F6 /* YSWriteStoryViewController.swift in Sources */,
 				B87D1C651E165B1700FFAEE2 /* YSUserInfoHeadModel.swift in Sources */,
 				0443E1561E156AE60055E61E /* YSUserInfoViewController.swift in Sources */,
+				B832903B1E1B98930076E535 /* YSPostListModel.swift in Sources */,
 				04ACD2451DF408AB0026C9F8 /* YSNetWorkManager.swift in Sources */,
 				0435B72B1DF29EC5006EC1F6 /* BaseTabBarController.swift in Sources */,
 				04ACD2351DF2A81B0026C9F8 /* UIViewExtension.swift in Sources */,
@@ -739,6 +757,7 @@
 				0435B74C1DF29ECE006EC1F6 /* YSMyInfoViewController.swift in Sources */,
 				B84C65201E126E6E0039031F /* Globals.swift in Sources */,
 				0435B74A1DF29ECE006EC1F6 /* YSMyInfoNavigationViewController.swift in Sources */,
+				B8F76E841E1B862000EA0C0F /* YSYourStoryViewController+TableView.swift in Sources */,
 				B87D1C611E16592300FFAEE2 /* YSUserinfoModel.swift in Sources */,
 				0443E1121E1551610055E61E /* YSSettingListCell.swift in Sources */,
 				0435B6F51DF29E99006EC1F6 /* AppDelegate.swift in Sources */,
@@ -756,6 +775,7 @@
 				B84C65271E135DDF0039031F /* YSSettingViewController.swift in Sources */,
 				04B3A1CF1E195C1800073878 /* SVProgressHUD+Category.swift in Sources */,
 				B8E70A611E1210B70046C18C /* YSFogotPwdViewController.swift in Sources */,
+				B832903D1E1B9B4B0076E535 /* TestData.swift in Sources */,
 				04ACD23D1DF3F6550026C9F8 /* YSRegisterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -11,13 +11,30 @@ import UIKit
 class YSYourStoryViewController: BaseViewController {
 
     private var loginView : UIView?
+    var arrData = [YSPostListModel]()
+    @IBOutlet var storyTableView: UITableView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
-//        presentLoginVC()
+        
+        configData()
+        self.storyTableView.rowHeight = UITableViewAutomaticDimension;
+        self.storyTableView.estimatedRowHeight = 20;
+        storyTableView.register(UINib(nibName: String(describing: YSPostListCellTableViewCell.self), bundle: nil), forCellReuseIdentifier: String(describing: YSPostListCellTableViewCell.self))
+    }
+    
+    func configData() -> Void {
         let network = YSNetWorkManager.shareSingle;
         network.networkPostListWithNickName(username: "", password: "")
+        for i in 0..<10 {
+            let strI = String(i)
+            let model = YSPostListModel()
+            model.urlHead = HEAD_URL
+            model.strName = "name_" + strI
+            model.strTime = "time_" + strI
+            model.strTitle = "标题_" + strI
+            arrData.append(model)
+        }
     }
     
     func configTabar() -> Void {
